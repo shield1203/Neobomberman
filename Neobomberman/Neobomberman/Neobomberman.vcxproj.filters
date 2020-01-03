@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\xml">
+      <UniqueIdentifier>{c3402ba6-1702-4f91-91d7-95abffbd91a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Manager">
+      <UniqueIdentifier>{f0036667-88ca-4801-a497-38e231091c38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Manager">
+      <UniqueIdentifier>{1d2b0a05-efcf-4409-91ab-24f426ceb5ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Manager\BattleManager">
+      <UniqueIdentifier>{52cb19d9-b58f-415e-8874-2436c436be6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Manager\StoryManager">
+      <UniqueIdentifier>{8a7387ee-8e5b-403d-8424-8b2d9bb7420a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Manager\BattleManager">
+      <UniqueIdentifier>{c3363646-13f8-48c3-9ea1-f76cb6262a99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Manager\StoryManager">
+      <UniqueIdentifier>{033087f7-e53c-4705-a488-713ded550352}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Neobomberman.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CIntro.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="tinystr.h">
+      <Filter>소스 파일\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml.h">
+      <Filter>소스 파일\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="CBattleManager.h">
+      <Filter>헤더 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CProcessManager.h">
+      <Filter>헤더 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CStoryManager.h">
+      <Filter>헤더 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameFrame.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CBomberSelect.h">
+      <Filter>헤더 파일\Manager\BattleManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CBattle.h">
+      <Filter>헤더 파일\Manager\BattleManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CMapSelect.h">
+      <Filter>헤더 파일\Manager\BattleManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameScene.h">
+      <Filter>헤더 파일\Manager\StoryManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CStory.h">
+      <Filter>헤더 파일\Manager\StoryManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CEnemy.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CBomber.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CModeSelect.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CBomb.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CItem.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CBattleResult.h">
+      <Filter>헤더 파일\Manager\BattleManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CSoundManager.h">
+      <Filter>헤더 파일\Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Neobomberman.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameFrame.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CIntro.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CModeSelect.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="tinystr.cpp">
+      <Filter>소스 파일\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml.cpp">
+      <Filter>소스 파일\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlerror.cpp">
+      <Filter>소스 파일\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlparser.cpp">
+      <Filter>소스 파일\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="CProcessManager.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CBattleManager.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CBattle.cpp">
+      <Filter>소스 파일\Manager\BattleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CBomberSelect.cpp">
+      <Filter>소스 파일\Manager\BattleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CMapSelect.cpp">
+      <Filter>소스 파일\Manager\BattleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CStoryManager.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameScene.cpp">
+      <Filter>소스 파일\Manager\StoryManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CStory.cpp">
+      <Filter>소스 파일\Manager\StoryManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CEnemy.cpp">
+      <Filter>소스 파일\Manager\StoryManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CBomber.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CBomb.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CBattleResult.cpp">
+      <Filter>소스 파일\Manager\BattleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CItem.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CSoundManager.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Neobomberman.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Neobomberman.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
